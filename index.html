@@ -1,73 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<html lang="en-us">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gustavo malvone - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="favicon.png">
-  </head>
-  <body>
-      <header>
-          <h1> <a href="index.html">Gustavo Malvone</a> </h1>
-      </header>
-      <main>
-        <div class="content">
-            <section>
-                  <h1 class="main-heading">Who am I</h1>
-                <div  class="text-block">
-                    <p>Hello! My name is Gustavo Malvone I am a Game Developer from Brazil, I was a professional Back-End programmer but now I make games.</p>
-                    <p>While my main area of expertise is coding, I have studied 3D modeling/texturing for characters and environments at Saga, 
-                        one of the biggest schools for 3D artists in South America, and I designed every sound used in the projects below.</p>
-                    <p>I love to learn new skills and techniques, from the sound design, to the code and even the visual elements of a game.
-                        I love getting involved in every aspect of Game Development.</p>                
-                </div>
-            </section>
-            <section>
-                <h2 class="sub-heading">Games</h2>
-                <div class="cards">
-                <div class="card">
-                    <a href="carabola-de-parimbo.html"> 
-                        <img
-                            src="imgs\Parimbo_card.png"
-                            alt="A 3D computer lit from above"
-                        />
-                        <div class="card-heading">Carábola de Parimbo</div>
-                        <div class="card-body">A simple game made for a GameJam in Brazil.</div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="spire.html"> 
-                        <img
-                            src="imgs\Spire_card.png"
-                            alt="A 3D computer lit from above"
-                        />
-                        <div class="card-heading">Spire</div>
-                        <div class="card-body">A Demo for a multiplayer game about robots climbing an abandoned building.</div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="planet_delivery.html"> 
-                        <img
-                            src="imgs\Delivery_card.png"
-                            alt="A Game Menu with a ship and planets as a background"
-                        />
-                        <div class="card-heading">Planet Delivery</div>
-                        <div class="card-body">A Game about a rusty robot delivering boxes to tiny planets.</div>
-                    </a>
-                </div>
-                </div>
-            </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gustavo Malvone | Game Developer</title>
+  <meta property="og:title" content="Gustavo Malvone | Game Developer">
+  <meta property="og:description" content="Portfolio of Gustavo Malvone, a game developer.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gustavo-malvone.github.io/portifolio">
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+  <div class="content">
+    <div class="summary">
+      <h1><span class="wave">👋</span> Hello there, <span class="partial-underline">I'm Gustavo Malvone</span></h2>
+        <div class="light-dim">
+          <p>A <span class="highlight">game developer</span> based in São Paulo, Brazil. In the past I've worked as a
+            professional back-end developer, but eventually found my way into game development.</p>
+          <p>I excel in programming, but I have also worked with <span class="highlight">3D modeling</span> characters
+            and environments at <span class="highlight">Saga</span>, one of the biggest schools for 3D artists in South
+            America.<br>I also had the opportunity to head the <span class="highlight">sound design</span> in most of
+            the projects listed below. With a passion for learning new skills and techniques, from <span
+              class="highlight">complex systems</span> and <span class="highlight">design patterns</span> to modeling,
+            designing and layouting the visual elements of a game, I love getting involved and contributing in most
+            areas of the development process.</p>
         </div>
-        <footer class="contact">
-            <h3> Contact Me</h3>
-            <p>gustavomalvone00@gmail.com</p>
-        </footer>
-    </main>
-  </body>
+    </div>
+    <div class="separator"></div>
+    <div class="social-icons">
+      <a href="https://github.com/Gustavo-Malvone" target="_blank" style="display:inline-block;margin-right:8px;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+          <path
+            d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.02 c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.72 1.26 3.38.97.1-.76.41-1.26.74-1.55 -2.56-.29-5.26-1.28-5.26-5.71 0-1.26.45-2.3 1.2-3.11-.12-.29-.52-1.46.11-3.04 0 0 .98-.31 3.2 1.19a11.1 11.1 0 0 1 5.82 0c2.21-1.5 3.2-1.19 3.2-1.19.63 1.58.23 2.75.11 3.04 .75.81 1.2 1.85 1.2 3.11 0 4.44-2.7 5.42-5.27 5.7.42.36.79 1.07.79 2.17v3.22 c0 .31.2.66.79.55A11.52 11.52 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z" />
+        </svg>
+      </a>
+      <a href="https://thatnyanguy.itch.io" target="_blank" style="display:inline-block;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="4 4 24 24" width="28" height="28" fill="currentColor">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M 16 5 C 12.748 5 8.3121094 5.0508594 7.4121094 5.1308594 C 6.4021094 5.7368594 4.4028125 8.0309531 4.3828125 8.6269531 L 4.3828125 9.6269531 C 4.3828125 10.889953 5.5657188 12 6.6367188 12 C 7.9197187 12 8.9902344 10.929969 8.9902344 9.6679688 C 8.9902344 10.929969 10.0305 12 11.3125 12 C 12.6055 12 13.605469 10.930969 13.605469 9.6679688 C 13.605469 10.929969 14.695281 12 15.988281 12 L 16.009766 12 C 17.302766 12 18.392578 10.930969 18.392578 9.6679688 C 18.392578 10.929969 19.402547 12 20.685547 12 C 21.968547 12 23.009766 10.930969 23.009766 9.6679688 C 23.009766 10.929969 24.080281 12 25.363281 12 C 26.434281 12 27.615234 10.889953 27.615234 9.6269531 L 27.615234 8.6269531 C 27.595234 8.0309531 25.595938 5.7368594 24.585938 5.1308594 C 21.443938 5.0198594 19.252 5 16 5 z M 13.550781 11.742188 C 12.497781 13.552188 9.8523125 13.573906 8.8203125 11.753906 C 8.1903125 12.845906 6.7642969 13.267547 6.1542969 13.060547 C 5.9762969 14.959547 5.8534844 24.70875 7.1464844 26.34375 C 10.943484 27.22875 21.164516 27.20975 24.853516 26.34375 C 26.348516 24.81975 26.013703 14.821547 25.845703 13.060547 C 25.235703 13.267547 23.809453 12.845906 23.189453 11.753906 C 22.146453 13.573906 19.501219 13.552188 18.449219 11.742188 C 18.124219 12.332187 17.367 13.109375 16 13.109375 C 14.997 13.148375 14.051781 12.607187 13.550781 11.742188 z M 11.419922 14 C 12.219922 14 12.950078 14.000469 13.830078 14.980469 C 15.280078 14.830469 16.719922 14.830469 18.169922 14.980469 C 19.059922 14.010469 19.780078 14.009766 20.580078 14.009766 C 23.160078 14.009766 23.780937 17.819609 24.710938 21.099609 C 25.550938 24.149609 24.429062 24.230469 23.039062 24.230469 C 20.969062 24.150469 19.820313 22.650625 19.820312 21.140625 C 17.890313 21.460625 14.809688 21.580625 12.179688 21.140625 C 12.179688 22.650625 11.030938 24.150469 8.9609375 24.230469 C 7.5709375 24.230469 6.4490625 24.149609 7.2890625 21.099609 C 8.2190625 17.799609 8.8399219 14.009766 11.419922 14.009766 L 11.419922 14 z M 16 16.876953 C 16 16.876953 14.306 18.439375 14 18.984375 L 15.107422 18.943359 L 15.107422 19.910156 C 15.107422 19.968156 15.926 19.917969 16 19.917969 C 16.447 19.934969 16.892578 19.951156 16.892578 19.910156 L 16.892578 18.943359 L 18 18.984375 C 17.694 18.438375 16 16.876953 16 16.876953 z">
+            </path>
+          </g>
+        </svg>
+      </a>
+    </div>
+
+    <section>
+      <h2><span class="partial-underline">Projects</span></h2>
+      <a class="project-card" href="carabola-de-parimbo.html">
+        <img src="imgs/Parimbo_card.png" height="100%" width="auto" />
+        <div class="project-card-body">
+          <small class="dim">Feb, 2026</small>
+          <h3 style="margin:0;">A Carábola de Parimbo</h3>
+          <div class="tags">
+            <span class="tag">Godot</span>
+            <span class="tag">Single Player</span>
+            <span class="tag">3D</span>
+            <span class="tag">Game Jam</span>
+            <span class="tag">Narrative</span>
+          </div>
+          <p>A short narrative driven game made in less than 11 days as entry for a GameJam</p>
+        </div>
+      </a>
+      <a class="project-card" href="spire.html">
+        <img src="imgs/Spire_card.png" height="100%" width="auto" />
+        <div class="project-card-body">
+          <small class="dim">Nov, 2025</small>
+          <h3 style="margin:0;">Spire</h3>
+          <div class="tags">
+            <span class="tag">Godot</span>
+            <span class="tag">Multiplayer</span>
+            <span class="tag">3D</span>
+            <span class="tag">Netcode</span>
+            <span class="tag">Story</span>
+            <span class="tag">Coop</span>
+            <span class="tag">Skill Based</span>
+          </div>
+          <p>The tech demo for a personal project of a multiplayer game about robots climbing a massive abandoned
+            building</p>
+        </div>
+      </a>
+      <a class="project-card" href="planet_delivery.html">
+        <img src="imgs/Delivery_card.png" height="100%" width="auto" />
+        <div class="project-card-body">
+          <small class="dim">Aug, 2025</small>
+          <h3 style="margin:0;">Planet Delivery</h3>
+          <div class="tags">
+            <span class="tag">Unreal Engine</span>
+            <span class="tag">Single Player</span>
+            <span class="tag">3D</span>
+            <span class="tag">Physics Based</span>
+          </div>
+          <p>My project developed in Saga about a rusty robot that deliver packages to their respective planets in a
+            tiny stelar system</p>
+        </div>
+      </a>
+    </section>
+    <section>
+      <h2><span class="partial-underline">Contact</span></h2>
+      <p class="light-dim">
+        If you’d like to talk about a project, collaboration, or <span class="highlight">work opportunities</span>, do
+        reach me out! The best way to <span class="highlight">contact me</span> is through email at <a
+          href="mailto:gustavomalvone00@gmail.com"><u>gustavomalvone00@gmail.com</u></a>
+      </p>
+    </section>
+    <section>
+      <div class="separator"></div>
+      <footer class="dim">
+        © <span id="year"></span> Gustavo Malvone<br>
+        <small>website made by <a href="https://github.com/math-queiroz" target="_blank"><u>math-queiroz</u></a></small>
+      </footer>
+      <script>document.querySelector("#year").innerText = new Date().getFullYear()</script>
+    </section>
+  </div>
+</body>
+
 </html>
